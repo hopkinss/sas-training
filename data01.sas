@@ -206,11 +206,14 @@ run;
 |    informat as a lookup
 *------------------------------------------------------------------------*;
 
+
 *------------------------------------------------------------------------*
 | Exercise DATA07.03
-| create dm3. derive the difference in age in minutes for each subject as 
-|    compared to the oldest subject
+| set dm1 by subject and see if the current subject is the oldest.
+| capture the oldest subject and age  in new variables to compare with next row. after the last observation,
+| create 2 macro variables called oldestSubject, oldest subject age in date9.
 *------------------------------------------------------------------------*;
+
 
 
 
